@@ -775,6 +775,7 @@ width: 32px;
 
 .modal-label {
   display: block;
+  margin-bottom: 8px;
 }
 
 .modal-name {
@@ -789,9 +790,13 @@ width: 32px;
 
 .modal-wrap {
   display: block;
-  margin-bottom: 16px;
   position: relative;
 }
+.modal-wrap.comment {
+  margin-bottom: 16px;
+}
+
+
 
 .modal-input {
   display: block;
