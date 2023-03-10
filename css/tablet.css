@@ -1,0 +1,137 @@
+/* --------TABLET-------- */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /*---------------  hed  ----------*/
+.mobile-menu-open {
+  display: none;
+}
+
+.logo-box {
+      margin-right: 24px;
+}
+
+
+
+
+
+  .logo-header {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.span-logo {
+  color: var(--btn-text-color);
+}
+
+.studio,
+.portfolio,
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-textmain-text-color);
+  transition: color var(--hover-transition);
+}
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--btn-text-color);
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mail,
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--second-text-color);
+  transition: color var(--hover-transition);
+}
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--btn-text-color);
+}
+
+.logo-footer {
+  
+  margin-left: 0px;
+}
+
+
+  /* ----- hero------ */
+
+  .title-text {
+    font-size: 56px;
+    width: 496px;
+  }
+
+  /* ----------specifics--------- */
+
+  /* --------what are we doing-------- */
+
+  /* ----- Our Team ------- */
+
+   .team-item {
+    gap: 64px 24px;
+    
+}
+
+/*------- costomers -------*/
+
+.client-item {
+  gap: 72px 24px;
+}
+
+
+
+.footer-subscribe-title {
+  text-align:left;
+  margin-left: -30px;
+}
+
+
+.footer-blok {
+margin-left: -30px;
+}
+
+/* ---------portfolio-------- */
+
+.portfol-img {
+    
+    column-gap: 16px;
+    row-gap: 72px;
+}
+.botton {
+
+  justify-content:center;
+
+
+}

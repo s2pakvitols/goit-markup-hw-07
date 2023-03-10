@@ -1,0 +1,46 @@
+/* ----MOBILE----- */
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+ {
+    
+    .container {
+  max-width: 428px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mobile-phone {
+   
+    font-size: 36px;
+
+}
+
+/* ----- hero------ */
+
+  .hero {
+  padding-bottom: 108px;
+}
+
+.title-text {
+    
+    width: 320px;
+}
+
+/* ----------specifics--------- */
+.post-title-text {
+  max-width: 396px;
+  font-weight: 500;
+}
+
+/* --------what are we doing-------- */
+
+/* ----- Our Team ------- */
+
+/*------- costomers -------*/
+
+.client-item {
+  gap: 72px 24px;
+}
+
+}

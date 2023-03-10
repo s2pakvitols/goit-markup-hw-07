@@ -16,19 +16,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/media-mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+
+
+
+
   </head>
   <body>
     <!-- head of page -->
-    <header class="header">
+     <header class="header">
       <div class="container">
-        <!-- navigation -->
+        
         <div class="heder-case">
-          <nav class="navigation">
-            <a class="logo link" href="./index.html">
+          
+            <a class="logo-header link" href="./index.html">
               <span class="span-logo">Web</span>Studio</a
             >
-
+          <nav class="navigation">
             <ul class="list">
               <li class="list-navi">
                 <a class="link studio current" href="./index.html">Studio</a>
@@ -40,10 +48,17 @@
                 <a class="link contacts" href="./contact.html">Contacts</a>
               </li>
             </ul>
-          </nav>
-          <!-- contacts -->
-          <address>
-            <ul class="list">
+            </nav>
+
+            <button type="button" class="mobile-menu-open js-open-menu""> 
+              <svg class="mobile-menu-open-icon" width="32" height="22">
+               <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
+              </svg>
+           </button>
+          
+          
+           <address class="address">
+            <ul class="address-list">
               <li>
                 <a class="mail link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
@@ -55,19 +70,84 @@
                 >
               </li>
             </ul>
-          </address>
+           </address>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu-container">
+          
+            <button class="mobile-menu-close js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+              </svg>
+            </button>
+          
+         
+            <ul class="mobile-site-nav">
+              <li class="mobile-site-list list">
+                <a href="./index.html" class="mobile-nav-link mob-current link">studio</a>
+              </li>
+              <li class="mobile-site-list list">
+                <a href="./portfolio.html" class="mobile-nav-link link">portfolio</a>
+              </li>
+              <li class="mobile-site-list list">
+                <a href="./contacts.html" class="mobile-nav-link  link">contacts</a>
+              </li>
+            </ul>
+            <ul class="mobile-site-auth list">
+              <li class="mobile-contacts">
+                <a href="tel:+110001111111" class="mobile-phone link">+11 (000) 111-11-11</a>
+              </li>
+              <li class="mobile-contacts">
+                <a href="mailto:info@devstudio.com" class="mobile-letter link">info@devstudio.com</a>
+              </li>
+            </ul>
+          
+            
+              <ul class="mobile-site-list-wrap list">
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
         </div>
       </div>
-    </header>
+        </div>
+      </div>
+    </header> 
 
     <main>
       <!-- hero section -->
       <section class="hero">
+        <div class="container">
         <h1 class="title-text">Effective Solutions for Your Business</h1>
-        <div class="botton-case">
+          <div class="botton-case">
           <button class="title-button" data-modal-open type="button">
             Order Service
           </button>
+          </div>
         </div>
       </section>
       <!-- Specifics --- section#2 -->
@@ -160,6 +240,7 @@
         </div>
       </section>
       <!-- Our Team --- section#4 -->
+      
       <section class="team-section">
         <div class="container our-team">
           <h2 class="team-title">Our Team</h2>
@@ -346,7 +427,8 @@
       </section>
 
       <!-- customers --- section#5 -->
-      <section class="customers">
+
+       <section class="customers">
         <div class="container">
           <h2 class="team-title">Customers</h2>
 
@@ -397,12 +479,17 @@
         </div>
       </section>
     </main>
+    <!-- -------footer------ -->
+
     <footer class="footer">
       <div class="footer-text container">
-        <div>
-          <a class="logo link" href="./index.html"
-            ><span class="span-logo">Web</span>Studio</a
-          >
+        <div class="logo-box">
+          
+          <div class="logo-conteiner">
+            <a class="logo-footer link" href="./index.html"
+              ><span class="span-logo">Web</span>Studio</a
+            >
+          </div>
           <p class="logo-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -456,8 +543,8 @@
       
         </form>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> 
+     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-svg" width="8" height="8">
@@ -519,5 +606,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

@@ -1,0 +1,88 @@
+/* --------DESKTOP------- */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+/*---------------  hed  ----------*/
+
+  .address {
+
+  flex-wrap: nowrap;
+}
+
+.logo-box {
+      margin-right: 120px;
+
+}
+
+.footer-icon-text {
+    margin-right: 80px;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+  /* ----- hero------ */
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  /* ----------specifics--------- */
+
+  .specifics {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .section-specifics {
+    flex-wrap: nowrap;
+  }
+
+  .icon-specifics {
+    display: unset;
+    width: 64px;
+    height: 64px;
+  }
+
+  .bg-specifics {
+    background: #f4f4fd;
+    border-radius: 4px;
+    height: 112px;
+    width: 264px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* --------what are we doing-------- */
+
+  .doing-box {
+    display: unset;
+    
+  }
+ 
+  /* ----- Our Team ------- */
+
+  .team-item {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  /*------- costomers -------*/
+
+  /* ---------portfolio-------- */
+
+.portfol-img {
+    
+    column-gap: 24px;
+        row-gap: 48px;
+
+}
+}

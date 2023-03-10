@@ -20,34 +20,44 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/media-mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <!-- head of page -->
-    <header class="header">
+     <header class="header">
       <div class="container">
-        <!-- navigation -->
+        
         <div class="heder-case">
-          <nav class="navigation">
-            <a class="logo link" href="./index.html">
+          
+            <a class="logo-header link" href="./index.html">
               <span class="span-logo">Web</span>Studio</a
             >
-
+          <nav class="navigation">
             <ul class="list">
               <li class="list-navi">
-                <a class="link studio" href="./index.html">Studio</a>
+                <a class="link studio current" href="./index.html">Studio</a>
               </li>
               <li class="list-navi">
                 <a class="link portfolio" href="./portfolio.html">Portfolio</a>
               </li>
-              <li class="list-navi current">
+              <li class="list-navi">
                 <a class="link contacts" href="./contact.html">Contacts</a>
               </li>
             </ul>
-          </nav>
-          <!-- contacts -->
-          <address>
-            <ul class="list">
+            </nav>
+
+            <button type="button" class="mobile-menu-open js-open-menu""> 
+              <svg class="mobile-menu-open-icon" width="32" height="22">
+               <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
+              </svg>
+           </button>
+          
+          
+           <address class="address">
+            <ul class="address-list">
               <li>
                 <a class="mail link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
@@ -59,21 +69,90 @@
                 >
               </li>
             </ul>
-          </address>
+           </address>
+          <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          
+            <button class="mobile-menu-close js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/symbol-defs.svg#icon-close-btn"></use>
+              </svg>
+            </button>
+          
+         
+            <ul class="mobile-site-nav">
+              <li class="mobile-site-list list">
+                <a href="./index.html" class="mobile-nav-link mob-current link">studio</a>
+              </li>
+              <li class="mobile-site-list list">
+                <a href="./portfolio.html" class="mobile-nav-link link">portfolio</a>
+              </li>
+              <li class="mobile-site-list list">
+                <a href="./contact.html" class="mobile-nav-link  link">contacts</a>
+              </li>
+            </ul>
+            <ul class="mobile-site-auth list">
+              <li class="mobile-contacts">
+                <a href="tel:+110001111111" class="mobile-phone link">+11 (000) 111-11-11</a>
+              </li>
+              <li class="mobile-contacts">
+                <a href="mailto:info@devstudio.com" class="mobile-letter link">info@devstudio.com</a>
+              </li>
+            </ul>
+          
+            
+              <ul class="mobile-site-list-wrap list">
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-site-list-item">
+                  <a href="" class="mobile-site-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            
+        
         </div>
       </div>
-    </header>
+        </div>
+      </div>
+    </header> 
+
 
     <main class="contact-pg">
       <div class="container"></div>
     </main>
 
-    <footer class="footer">
+   <footer class="footer">
       <div class="footer-text container">
-        <div>
-          <a class="logo link" href="./index.html"
-            ><span class="span-logo">Web</span>Studio</a
-          >
+        <div class="logo-box">
+          
+          <div class="logo-conteiner">
+            <a class="logo-footer link" href="./index.html"
+              ><span class="span-logo">Web</span>Studio</a
+            >
+          </div>
           <p class="logo-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -127,6 +206,7 @@
       
         </form>
       </div>
-    </footer>
+    </footer> 
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
