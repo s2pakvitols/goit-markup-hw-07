@@ -7,38 +7,41 @@
     padding-right: 15px;
   }
 
-/*---------------  hed  ----------*/
+  /*---------------  hed  ----------*/
 
   .address {
+    flex-wrap: nowrap;
+  }
 
-  flex-wrap: nowrap;
-}
-
-.logo-box {
-  margin-left: 0px;
-      margin-right: 120px;
-
-}
-.logo-header {
+  .logo-box {
+    margin-left: 0px;
+    margin-right: 120px;
+  }
+  .logo-header {
     margin-right: 76px;
-}
+  }
 
-.footer-icon-text {
+  .footer-icon-text {
     margin-right: 80px;
-}
-.list {
-    
+  }
+  .list {
     margin-right: 322px;
-}
-.address-list {
+  }
+  .address-list {
     gap: 40px;
-}
+  }
 
   /* ----- hero------ */
 
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/people-office.jpg');
   }
 
   /* ----------specifics--------- */
@@ -68,60 +71,55 @@
   }
 
   .post-title {
-  
-  font-weight: 500;
-  font-size: 20px;
+    font-weight: 500;
+    font-size: 20px;
   }
-  
 
   .post-title-text {
     max-width: 264px;
     font-weight: 400;
-}
+  }
 
   /* --------what are we doing-------- */
 
   .doing-box {
     display: unset;
-    
   }
- 
+
   /* ----- Our Team ------- */
 
   .team-item {
     flex-wrap: nowrap;
     gap: 24px;
   }
-   
 
-  .footer-text{
-  flex-wrap: nowrap;
-    
+  .footer-text {
+    flex-wrap: nowrap;
   }
 
   .footer-subscribe {
     margin-left: 0px;
-}
-
+  }
 
   /*------- costomers -------*/
 
   /* ---------portfolio-------- */
 
-
-
-
-
-.portfol-img {
-    
+  .portfol-img {
     column-gap: 24px;
-        row-gap: 48px;
+    row-gap: 48px;
+  }
 
+  .modal {
+    top: 80px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.section-hero{
+background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)), url('../images/people-office-2x.jpg');
 }
-
-.modal {
-
-  top: 80px;
-
 }
 }

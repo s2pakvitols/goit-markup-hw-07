@@ -56,6 +56,7 @@
 .address {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .mail,
@@ -82,6 +83,12 @@
 
   /* ----- hero------ */
 
+ .hero {
+    background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url('../images/dark-bg-table.jpg');
+ }
+  
   .title-text {
     font-size: 56px;
     width: 496px;
@@ -148,4 +155,13 @@
   justify-content:center;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.section-hero{
+background-image:linear-gradient(to right, rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)), url('../images/dark-bg-table-2x.jpg');
+}
+
   }
+}
