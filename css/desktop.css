@@ -15,15 +15,22 @@
 }
 
 .logo-box {
+  margin-left: 0px;
       margin-right: 120px;
 
+}
+.logo-header {
+    margin-right: 76px;
 }
 
 .footer-icon-text {
     margin-right: 80px;
 }
+.list {
+    
+    margin-right: 322px;
+}
 .address-list {
-    display: flex;
     gap: 40px;
 }
 
@@ -45,7 +52,6 @@
   }
 
   .icon-specifics {
-    display: unset;
     width: 64px;
     height: 64px;
   }
@@ -61,6 +67,18 @@
     align-items: center;
   }
 
+  .post-title {
+  
+  font-weight: 500;
+  font-size: 20px;
+  }
+  
+
+  .post-title-text {
+    max-width: 264px;
+    font-weight: 400;
+}
+
   /* --------what are we doing-------- */
 
   .doing-box {
@@ -74,15 +92,36 @@
     flex-wrap: nowrap;
     gap: 24px;
   }
+   
+
+  .footer-text{
+  flex-wrap: nowrap;
+    
+  }
+
+  .footer-subscribe {
+    margin-left: 0px;
+}
+
 
   /*------- costomers -------*/
 
   /* ---------portfolio-------- */
 
+
+
+
+
 .portfol-img {
     
     column-gap: 24px;
         row-gap: 48px;
+
+}
+
+.modal {
+
+  top: 80px;
 
 }
 }

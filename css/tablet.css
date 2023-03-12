@@ -14,23 +14,17 @@
 
 .logo-box {
       margin-right: 24px;
+      margin-left: 108px;
 }
 
-
-
-
+.heder-case {
+    
+    justify-content: unset;
+}
 
   .logo-header {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  color: var(--main-text-color);
-  text-decoration: none;
-  text-align: center;
-  margin-right: 70px;
+
+  margin-right: 123px;
 }
 
 .span-logo {
@@ -94,7 +88,10 @@
   }
 
   /* ----------specifics--------- */
-
+  .post-title-text {
+    max-width: 356px;
+  }
+  
   /* --------what are we doing-------- */
 
   /* ----- Our Team ------- */
@@ -102,7 +99,7 @@
    .team-item {
     gap: 64px 24px;
     
-}
+   }
 
 /*------- costomers -------*/
 
@@ -110,17 +107,33 @@
   gap: 72px 24px;
 }
 
+/* -------footer------ */
+
+
+
+.logo-conteiner {
+  text-align: unset;
+}
+
+.footer-subscribe {
+  margin-left: 108px;
+}
 
 
 .footer-subscribe-title {
-  text-align:left;
-  margin-left: -30px;
+  text-align: left;
+  
 }
 
-
-.footer-blok {
-margin-left: -30px;
+.footer-text {
+  justify-content: unset;
 }
+
+.icon-text{
+    text-align: left;
+  }
+
+
 
 /* ---------portfolio-------- */
 
@@ -129,8 +142,10 @@ margin-left: -30px;
     column-gap: 16px;
     row-gap: 72px;
 }
+
 .botton {
 
   justify-content:center;
 }
-}
+
+  }

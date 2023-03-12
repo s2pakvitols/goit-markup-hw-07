@@ -14,6 +14,7 @@
    
     font-size: 36px;
 
+
 }
 
 /* ----- hero------ */
@@ -23,15 +24,11 @@
 }
 
 .title-text {
-    
-    width: 320px;
+    max-width: 396px;
 }
 
 /* ----------specifics--------- */
-.post-title-text {
-  max-width: 396px;
-  font-weight: 500;
-}
+
 
 /* --------what are we doing-------- */
 
@@ -39,8 +36,6 @@
 
 /*------- costomers -------*/
 
-.client-item {
-  gap: 72px 24px;
-}
+
 
 }
